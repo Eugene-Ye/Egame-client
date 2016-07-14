@@ -73,6 +73,7 @@ cc.Class({
        
         xhr.open("GET", url, true);
         xhr.send();
+        //
 
         
         //reset data
