@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '63738OONCFKHqsf4QSeJSun', 'Game');
-// scripts/Game.js
+// scripts\Game.js
 
 var players = require('PlayerData').players;
 var Decks = require('Decks');

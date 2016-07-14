@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '01ca4tStvVH+JmZ5TNcmuAu', 'AudioMng');
-// scripts/AudioMng.js
+// scripts\AudioMng.js
 
 cc.Class({
     "extends": cc.Component,

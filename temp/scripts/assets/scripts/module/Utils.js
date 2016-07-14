@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '73590esk6xP9ICqhfUZalMg', 'Utils');
-// scripts/module/Utils.js
+// scripts\module\Utils.js
 
 
 // 返回尽可能不超过 21 点的最小和最大点数

@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '71d9293mx9CFryhJvRw85ZS', 'state.com');
-// scripts/lib/state.com.js
+// scripts\lib\state.com.js
 
 /*
  * Finite state machine library

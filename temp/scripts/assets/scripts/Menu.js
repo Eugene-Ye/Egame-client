@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '20f60m+3RlGO7x2/ARzZ6Qc', 'Menu');
-// scripts/Menu.js
+// scripts\Menu.js
 
 cc.Class({
     'extends': cc.Component,

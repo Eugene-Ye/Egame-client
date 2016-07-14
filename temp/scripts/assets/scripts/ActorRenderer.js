@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '1a792KO87NBg7vCCIp1jq+j', 'ActorRenderer');
-// scripts/ActorRenderer.js
+// scripts\ActorRenderer.js
 
 var Game = require('Game');
 var Types = require('Types');

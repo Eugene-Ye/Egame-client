@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '7d008dTf6xB2Z0wCAdzh1Rx', 'Actor');
-// scripts/Actor.js
+// scripts\Actor.js
 
 var Types = require('Types');
 var Utils = require('Utils');

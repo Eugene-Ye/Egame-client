@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, 'ab67e5QkiVCBZ3DIMlWhiAt', 'Card');
-// scripts/Card.js
+// scripts\Card.js
 
 cc.Class({
     "extends": cc.Component,

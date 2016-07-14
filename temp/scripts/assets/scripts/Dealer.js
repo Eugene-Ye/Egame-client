@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, 'ce2dfoqEulHCLjS1Z9xPN7t', 'Dealer');
-// scripts/Dealer.js
+// scripts\Dealer.js
 
 var Actor = require('Actor');
 var Utils = require('Utils');

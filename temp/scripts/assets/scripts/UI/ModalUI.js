@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '54397cUxehGzqEqpMUGHejs', 'ModalUI');
-// scripts/UI/ModalUI.js
+// scripts\UI\ModalUI.js
 
 cc.Class({
     'extends': cc.Component,

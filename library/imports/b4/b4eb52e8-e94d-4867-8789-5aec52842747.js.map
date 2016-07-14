@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,YAAI,EAAE,EAAE,CAAC,SAAS;KACrB;;;AAGD,QAAI,EAAE,gBAAY;AACd,YAAI,CAAC,IAAI,CAAC,IAAI,CAAC,WAAW,CAAC,CAAC;KAC/B;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        anim: cc.Animation\r\n    },\r\n\r\n    // use this for initialization\r\n    play: function () {\r\n        this.anim.play('chip_toss');\r\n    },\r\n});\r\n"
+  ]
+}

@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, 'a171dSnCXFMRIqs1IWdvgWM', 'ButtonScaler');
-// scripts/UI/ButtonScaler.js
+// scripts\UI\ButtonScaler.js
 
 cc.Class({
     'extends': cc.Component,

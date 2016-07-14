@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,OAAO,GAAG,CACf;AACC,KAAI,EAAE,KAAK;AACX,KAAI,EAAE,IAAI;AACV,SAAQ,EAAE,CAAC;CACX,EACD;AACC,KAAI,EAAE,OAAO;AACb,KAAI,EAAE,IAAI;AACV,SAAQ,EAAE,CAAC;CACX,EACD;AACC,KAAI,EAAE,GAAG;AACT,KAAI,EAAE,IAAI;AACV,SAAQ,EAAE,CAAC;CACX,EACD;AACC,KAAI,EAAE,IAAI;AACV,KAAI,EAAE,GAAG;AACT,SAAQ,EAAE,CAAC;CACX,EACD;AACC,KAAI,EAAE,KAAK;AACX,KAAI,EAAE,IAAI;AACV,SAAQ,EAAE,CAAC;CACX,EACD;AACC,KAAI,EAAE,GAAG;AACT,KAAI,EAAE,IAAI;AACV,SAAQ,EAAE,CAAC;CACX,EACD;AACC,KAAI,EAAE,GAAG;AACT,KAAI,EAAE,KAAK;AACX,SAAQ,EAAE,CAAC;CACX,CACD,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG;AAChB,QAAO,EAAE,OAAO;CAChB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const players = [\r\n\t{\r\n\t\tname: '奥巴马',\r\n\t\tgold: 3000,\r\n\t\tphotoIdx: 0\r\n\t},\r\n\t{\r\n\t\tname: 'trump',\r\n\t\tgold: 2000,\r\n\t\tphotoIdx: 1\r\n\t},\r\n\t{\r\n\t\tname: '习',\r\n\t\tgold: 1500,\r\n\t\tphotoIdx: 2\r\n\t},\r\n\t{\r\n\t\tname: '普京',\r\n\t\tgold: 500,\r\n\t\tphotoIdx: 3\r\n\t},\r\n\t{\r\n\t\tname: '希拉里',\r\n\t\tgold: 9000,\r\n\t\tphotoIdx: 4\r\n\t},\r\n\t{\r\n\t\tname: '蛤',\r\n\t\tgold: 5000,\r\n\t\tphotoIdx: 5\r\n\t},\r\n\t{\r\n\t\tname: '涛',\r\n\t\tgold: 10000,\r\n\t\tphotoIdx: 6\r\n\t}\r\n];\r\n\r\nmodule.exports = {\r\n\tplayers: players\r\n};"
+  ]
+}

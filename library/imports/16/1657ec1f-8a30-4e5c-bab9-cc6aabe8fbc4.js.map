@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,gBAAQ,EAAE,EAAE,CAAC,MAAM;AACnB,iBAAS,EAAE,EAAE,CAAC,KAAK;AACnB,uBAAe,EAAE,EAAE,CAAC,KAAK;AACzB,iBAAS,EAAE,EAAE,CAAC,KAAK;AACnB,qBAAa,EAAE,EAAE,CAAC,MAAM;AACxB,iBAAS,EAAE,EAAE,CAAC,WAAW;AACzB,sBAAc,EAAE,EAAE,CAAC,WAAW;;KAEjC;;;AAGD,QAAI,EAAE,cAAU,IAAI,EAAE,UAAU,EAAE;AAC9B,YAAI,IAAI,GAAG,CAAC,EAAE;;AACV,gBAAI,CAAC,SAAS,CAAC,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC;AACnC,gBAAI,CAAC,QAAQ,CAAC,WAAW,GAAG,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC;SACpD,MAAM;AACH,gBAAI,CAAC,SAAS,CAAC,IAAI,CAAC,MAAM,GAAG,IAAI,CAAC;AAClC,gBAAI,CAAC,SAAS,CAAC,MAAM,GAAG,CAAC,IAAI,GAAG,CAAC,CAAA,CAAE,QAAQ,EAAE,CAAC;SACjD;;AAED,YAAI,CAAC,eAAe,CAAC,MAAM,GAAG,UAAU,CAAC,IAAI,CAAC;AAC9C,YAAI,CAAC,SAAS,CAAC,MAAM,GAAG,UAAU,CAAC,IAAI,CAAC,QAAQ,EAAE,CAAC;AACnD,YAAI,CAAC,aAAa,CAAC,WAAW,GAAG,IAAI,CAAC,cAAc,CAAC,UAAU,CAAC,QAAQ,CAAC,CAAC;KAC7E;;;AAGD,UAAM,EAAE,gBAAU,EAAE,EAAE,EAErB;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        spRankBG: cc.Sprite,\r\n        labelRank: cc.Label,\r\n        labelPlayerName: cc.Label,\r\n        labelGold: cc.Label,\r\n        spPlayerPhoto: cc.Sprite,\r\n        texRankBG: cc.SpriteFrame,\r\n        texPlayerPhoto: cc.SpriteFrame\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    init: function (rank, playerInfo) {\r\n        if (rank < 3) { // should display trophy\r\n            this.labelRank.node.active = false;\r\n            this.spRankBG.spriteFrame = this.texRankBG[rank];\r\n        } else {\r\n            this.labelRank.node.active = true;\r\n            this.labelRank.string = (rank + 1).toString();\r\n        }\r\n\r\n        this.labelPlayerName.string = playerInfo.name;\r\n        this.labelGold.string = playerInfo.gold.toString();\r\n        this.spPlayerPhoto.spriteFrame = this.texPlayerPhoto[playerInfo.photoIdx];\r\n    },\r\n\r\n    // called every frame\r\n    update: function (dt) {\r\n\r\n    },\r\n});\r\n"
+  ]
+}

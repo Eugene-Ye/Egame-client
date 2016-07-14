@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '17024G0JFpHcLI5GREbF8VN', 'Decks');
-// scripts/module/Decks.js
+// scripts\module\Decks.js
 
 var Types = require('Types');
 

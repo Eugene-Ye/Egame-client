@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '68da2yjdGVMSYhXLN9DukIB', 'FXPlayer');
-// scripts/FXPlayer.js
+// scripts\FXPlayer.js
 
 cc.Class({
     "extends": cc.Component,

@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, 'b4eb5Lo6U1IZ4eJWuxShCdH', 'TossChip');
-// scripts/TossChip.js
+// scripts\TossChip.js
 
 cc.Class({
     'extends': cc.Component,

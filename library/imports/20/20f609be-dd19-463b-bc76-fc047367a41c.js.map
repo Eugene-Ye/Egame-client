@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,gBAAQ,EAAE,EAAE,CAAC,IAAI;KACpB;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,QAAQ,GAAG,IAAI,CAAC,QAAQ,CAAC,YAAY,CAAC,UAAU,CAAC,CAAC;AACvD,YAAI,CAAC,QAAQ,CAAC,SAAS,EAAE,CAAC;KAC7B;;AAED,YAAQ,EAAE,oBAAY;AAClB,UAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,OAAO,CAAC,CAAC;KAClC;;;AAGD,UAAM,EAAE,gBAAU,EAAE,EAAE,EAErB;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        audioMng: cc.Node\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.audioMng = this.audioMng.getComponent('AudioMng');\r\n        this.audioMng.playMusic();\r\n    },\r\n\r\n    playGame: function () {\r\n        cc.director.loadScene('table');\r\n    },\r\n\r\n    // called every frame\r\n    update: function (dt) {\r\n\r\n    },\r\n});\r\n"
+  ]
+}

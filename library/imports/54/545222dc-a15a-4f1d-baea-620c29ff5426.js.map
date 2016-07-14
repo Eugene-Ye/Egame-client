@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,QAAQ,GAAG,EAAE,CAAC,KAAK,CAAC;AACpB,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,eAAO,EAAE,EAAE,CAAC,WAAW;AACvB,mBAAW,EAAE,EAAE,CAAC,WAAW;AAC3B,oBAAY,EAAE,EAAE,CAAC,WAAW;AAC5B,uBAAe,EAAE,EAAE,CAAC,WAAW;AAC/B,oBAAY,EAAE,EAAE,CAAC,WAAW;KAC/B;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "var AssetMng = cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        texBust: cc.SpriteFrame,\r\n        texCardInfo: cc.SpriteFrame,\r\n        texCountdown: cc.SpriteFrame,\r\n        texBetCountdown: cc.SpriteFrame,\r\n        playerPhotos: cc.SpriteFrame,\r\n    }\r\n});\r\n"
+  ]
+}

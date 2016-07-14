@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '6510d1SmQRMMYH8FEIA7zXq', 'game-fsm');
-// scripts/module/game-fsm.js
+// scripts\module\game-fsm.js
 
 var State = require('state.com');
 

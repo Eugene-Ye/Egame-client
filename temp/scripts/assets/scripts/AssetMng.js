@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '54522LcoVpPHbrqYgwp/1Qm', 'AssetMng');
-// scripts/AssetMng.js
+// scripts\AssetMng.js
 
 var AssetMng = cc.Class({
     "extends": cc.Component,

@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '3aae7lZKyhPqqsLD3wMKl6X', 'SideSwitcher');
-// scripts/SideSwitcher.js
+// scripts\SideSwitcher.js
 
 cc.Class({
     "extends": cc.Component,

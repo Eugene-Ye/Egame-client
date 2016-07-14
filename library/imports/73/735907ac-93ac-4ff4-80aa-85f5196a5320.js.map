@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAEA,SAAS,cAAc,CAAE,KAAK,EAAE;AAC5B,QAAI,MAAM,GAAG,KAAK,CAAC;AACnB,QAAI,GAAG,GAAG,CAAC,CAAC;AACZ,SAAK,IAAI,CAAC,GAAG,CAAC,EAAE,CAAC,GAAG,KAAK,CAAC,MAAM,EAAE,CAAC,EAAE,EAAE;AACnC,YAAI,IAAI,GAAG,KAAK,CAAC,CAAC,CAAC,CAAC;AACpB,YAAI,IAAI,CAAC,KAAK,KAAK,CAAC,EAAE;AAClB,kBAAM,GAAG,IAAI,CAAC;SACjB;AACD,WAAG,IAAI,IAAI,CAAC,GAAG,CAAC,EAAE,EAAE,IAAI,CAAC,KAAK,CAAC,CAAC;KACnC;AACD,QAAI,GAAG,GAAG,GAAG,CAAC;;AAEd,QAAI,MAAM,IAAI,GAAG,GAAG,EAAE,IAAI,EAAE,EAAE;;AAE1B,WAAG,IAAI,EAAE,CAAC;KACb;;AAED,WAAO;AACH,WAAG,EAAE,GAAG;AACR,WAAG,EAAE,GAAG;KACX,CAAC;CACL;;AAED,SAAS,MAAM,CAAE,KAAK,EAAE;AACpB,QAAI,GAAG,GAAG,CAAC,CAAC;AACZ,SAAK,IAAI,CAAC,GAAG,CAAC,EAAE,CAAC,GAAG,KAAK,CAAC,MAAM,EAAE,CAAC,EAAE,EAAE;AACnC,YAAI,IAAI,GAAG,KAAK,CAAC,CAAC,CAAC,CAAC;AACpB,WAAG,IAAI,IAAI,CAAC,GAAG,CAAC,EAAE,EAAE,IAAI,CAAC,KAAK,CAAC,CAAC;KACnC;AACD,WAAO,GAAG,GAAG,EAAE,CAAC;CACnB;;AAED,IAAI,QAAQ,GAAG,SAAX,QAAQ,GAAe;AACvB,WAAO,EAAE,CAAC,GAAG,CAAC,QAAQ,CAAC;CAC1B,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG;AACb,UAAM,EAAE,MAAM;AACd,kBAAc,EAAE,cAAc;AAC9B,YAAQ,EAAE,QAAQ;CACrB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "\r\n// 返回尽可能不超过 21 点的最小和最大点数\r\nfunction getMinMaxPoint (cards) {\r\n    var hasAce = false;\r\n    var min = 0;\r\n    for (var i = 0; i < cards.length; i++) {\r\n        var card = cards[i];\r\n        if (card.point === 1) {\r\n            hasAce = true;\r\n        }\r\n        min += Math.min(10, card.point);\r\n    }\r\n    var max = min;\r\n    // 如果有 1 个 A 可以当成 11\r\n    if (hasAce && min + 10 <= 21) {\r\n        // （如果两个 A 都当成 11，那么总分最小也会是 22，爆了，所以最多只能有一个 A 当成 11）\r\n        max += 10;\r\n    }\r\n\r\n    return {\r\n        min: min,\r\n        max: max\r\n    };\r\n}\r\n\r\nfunction isBust (cards) {\r\n    var sum = 0;\r\n    for (var i = 0; i < cards.length; i++) {\r\n        var card = cards[i];\r\n        sum += Math.min(10, card.point);\r\n    }\r\n    return sum > 21;\r\n}\r\n\r\nvar isMobile = function () {\r\n    return cc.sys.isMobile;\r\n};\r\n\r\nmodule.exports = {\r\n    isBust: isBust,\r\n    getMinMaxPoint: getMinMaxPoint,\r\n    isMobile: isMobile\r\n};\r\n"
+  ]
+}

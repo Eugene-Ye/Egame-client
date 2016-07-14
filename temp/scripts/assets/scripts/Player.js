@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '226a2AvzRpHL7SJGTMy5PDX', 'Player');
-// scripts/Player.js
+// scripts\Player.js
 
 var Actor = require('Actor');
 

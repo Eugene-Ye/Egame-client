@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '28f38yToT1Pw7NgyeCvRxDC', 'Bet');
-// scripts/Bet.js
+// scripts\Bet.js
 
 var Game = require('Game');
 

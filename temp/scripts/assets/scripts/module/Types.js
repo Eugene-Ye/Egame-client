@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '5b633QMQxpFmYetofEvK2UD', 'Types');
-// scripts/module/Types.js
+// scripts\module\Types.js
 
 var Suit = cc.Enum({
     Spade: 1, // 黑桃

@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '1657ewfijBOXLq5zGqr6PvE', 'RankItem');
-// scripts/UI/RankItem.js
+// scripts\UI\RankItem.js
 
 cc.Class({
     "extends": cc.Component,

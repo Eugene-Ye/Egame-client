@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, 'f192efroeFEyaxtfh8TVXYz', 'InGameUI');
-// scripts/UI/InGameUI.js
+// scripts\UI\InGameUI.js
 
 var Game = require('Game');
 

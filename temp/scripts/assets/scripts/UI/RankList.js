@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, 'fe3fcIxCFFLrKHg6s5+xRUU', 'RankList');
-// scripts/UI/RankList.js
+// scripts\UI\RankList.js
 
 var players = require('PlayerData').players;
 

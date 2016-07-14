@@ -22,16 +22,13 @@ cc.Class({
         var username = this.inputUsername.string;
         var pass = this.inputPass.string;
         var xhr = new XMLHttpRequest();
-        var url = "http://localhost:8088/welcome/?action=user.signin";
+        var url = "http://192.168.1.102:8088/welcome/?action=user.signin";
         var data = "username=" + username + "&pass=" + pass;
         //var data = JSON.stringify({"username": username, "pass": pass});
         //var data = {"username": username, "pass": pass};
-        alert(typeof data);
-        alert(data);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && xhr.status >= 200 && xhr.status < 400) {
                 var response = xhr.responseText;
-                alert(response);
             }
         };
 
@@ -52,7 +49,7 @@ cc.Class({
         ws.onclose = function (event) {
             console.log("WebSocket instance closed.");
         };
-         setTimeout(function () {
+          setTimeout(function () {
             if (ws.readyState === WebSocket.OPEN) {
                 ws.send("Hello WebSocket, I'm a text message.");
             }
@@ -61,7 +58,32 @@ cc.Class({
             }
         }, 3);*/
 
-        // cc.director.loadScene('menu');
+        //load users
+        url = "http://192.168.1.102:8088/welcome/?action=user.getusers";
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status >= 200 && xhr.status < 400) {
+                var response = xhr.responseText;
+                console.log(response);
+                cc.sys.localStorage.setItem('userData', JSON.stringify(response));
+            }
+        };
+
+        xhr.open("GET", url, true);
+        xhr.send();
+
+        //reset data
+        /*url = "http://192.168.1.102:8088/welcome/?action=user.rsetusers";
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
+            var response = xhr.responseText;
+            console.log(response);
+          }
+        };
+        
+        xhr.open("GET", url, true);
+        xhr.send();*/
+
+        //cc.director.loadScene('menu');
     }
 
     // called every frame, uncomment this function to activate update callback

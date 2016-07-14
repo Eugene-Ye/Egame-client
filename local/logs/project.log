@@ -1,0 +1,62 @@
+2016-07-12T20:01:18.800Z - normal: Load ~/.CocosCreator/settings.json
+2016-07-12T20:01:18.811Z - normal: checking language setting...
+2016-07-12T20:01:18.812Z - normal: Language: zh
+2016-07-12T20:01:18.812Z - warn: Invalid layout profile, remove old profile and init a new one at: E:\Documents\Egame-client\local\layout.windows.json
+2016-07-12T20:01:19.916Z - success: protocol editor-framework registerred
+2016-07-12T20:01:19.917Z - success: protocol app registerred
+2016-07-12T20:01:19.917Z - success: protocol packages registerred
+2016-07-12T20:01:19.917Z - success: protocol unpack registerred
+2016-07-12T20:01:20.141Z - normal: connected!
+2016-07-12T20:01:20.144Z - normal: Check project E:\Documents\Egame-client
+2016-07-12T20:01:20.146Z - normal: Initializing Cocos Creator Editor
+2016-07-12T20:01:20.417Z - normal: Initializing Cocos2d
+2016-07-12T20:01:21.280Z - normal: Initializing Asset Database
+2016-07-12T20:01:21.313Z - success: protocol uuid registerred
+2016-07-12T20:01:21.313Z - success: protocol uuid registerred
+2016-07-12T20:01:21.313Z - success: protocol thumbnail registerred
+2016-07-12T20:01:21.313Z - normal: Loading editor/builtin packages
+2016-07-12T20:01:21.468Z - success: assets loaded
+2016-07-12T20:01:21.470Z - success: builder loaded
+2016-07-12T20:01:21.477Z - success: hierarchy loaded
+2016-07-12T20:01:21.481Z - success: inspector loaded
+2016-07-12T20:01:21.483Z - success: keystore loaded
+2016-07-12T20:01:21.487Z - success: node-library loaded
+2016-07-12T20:01:21.490Z - success: preferences loaded
+2016-07-12T20:01:21.509Z - success: project-importer loaded
+2016-07-12T20:01:21.512Z - success: project-settings loaded
+2016-07-12T20:01:21.515Z - success: ui-kit loaded
+2016-07-12T20:01:21.519Z - success: ui-grid loaded
+2016-07-12T20:01:21.525Z - success: scene loaded
+2016-07-12T20:01:21.526Z - success: sprite-editor loaded
+2016-07-12T20:01:21.535Z - success: timeline loaded
+2016-07-12T20:01:21.536Z - success: ui-kit-extra loaded
+2016-07-12T20:01:21.537Z - normal: Loading builtin packages
+2016-07-12T20:01:21.540Z - success: asset-db-debugger loaded
+2016-07-12T20:01:21.541Z - success: code-editor loaded
+2016-07-12T20:01:21.542Z - success: color-picker loaded
+2016-07-12T20:01:21.546Z - success: console loaded
+2016-07-12T20:01:21.549Z - success: package-manager loaded
+2016-07-12T20:01:21.553Z - success: tester loaded
+2016-07-12T20:01:21.555Z - success: ui-tree loaded
+2016-07-12T20:01:21.637Z - normal: Initializing project E:\Documents\Egame-client
+2016-07-12T20:01:21.644Z - normal: Loading packages
+2016-07-12T20:01:21.649Z - normal: Run Application
+2016-07-12T20:01:22.415Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["blackjack/BLACK JACK_1.png","blackjack/BLACK JACK_10.png","blackjack/BLACK JACK_11.png","blackjack/BLACK JACK_12.png","blackjack/BLACK JACK_13.png","blackjack/BLACK JACK_14.png","blackjack/BLACK JACK_15.png","blackjack/BLACK JACK_16.png","blackjack/BLACK JACK_17.png","blackjack/BLACK JACK_18.png","blackjack/BLACK JACK_19.png","blackjack/BLACK JACK_2.png","blackjack/BLACK JACK_20.png","blackjack/BLACK JACK_21.png","blackjack/BLACK JACK_22.png","blackjack/BLACK JACK_3.png","blackjack/BLACK JACK_4.png","blackjack/BLACK JACK_5.png","blackjack/BLACK JACK_6.png","blackjack/BLACK JACK_7.png","blackjack/BLACK JACK_8.png","blackjack/BLACK JACK_9.png","bust/BUST_1.png","bust/BUST_10.png","bust/BUST_2.png","bust/BUST_3.png","bust/BUST_4.png","bust/BUST_5.png","bust/BUST_6.png","bust/BUST_7.png","bust/BUST_8.png","bust/BUST_9.png"]
+2016-07-12T20:01:22.499Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["user/circle_1.png","user/circle_2.png","user/circle_3.png","user/circle_4.png","user/circle_5.png"]
+2016-07-12T20:01:25.639Z - success: preview server running at http://localhost:7456
+2016-07-12T20:01:25.639Z - normal: Compiling scripts...
+2016-07-12T20:01:27.600Z - normal: Compiled successfully
+2016-07-12T20:01:32.163Z - normal: 1.1.1
+2016-07-12T20:02:59.446Z - normal: Compiled successfully
+2016-07-12T20:04:00.145Z - normal: Compiled successfully
+2016-07-13T20:15:35.516Z - normal: Compiled successfully
+2016-07-13T20:16:47.292Z - normal: Compiled successfully
+2016-07-14T18:23:38.205Z - normal: Compiled successfully
+2016-07-14T18:24:22.498Z - normal: Compiled successfully
+2016-07-14T18:27:14.030Z - normal: Compiled successfully
+2016-07-14T18:46:30.440Z - normal: Compiled successfully
+2016-07-14T18:47:27.422Z - normal: Compiled successfully
+2016-07-14T19:30:55.013Z - normal: Compiled successfully
+2016-07-14T19:31:44.942Z - normal: Compiled successfully
+2016-07-14T19:57:14.913Z - normal: Compiled successfully
+2016-07-14T19:59:15.150Z - normal: Compiled successfully

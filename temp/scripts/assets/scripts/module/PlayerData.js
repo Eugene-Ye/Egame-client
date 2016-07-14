@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '4f9c5eXxqhHAKLxZeRmgHDB', 'PlayerData');
-// scripts/module/PlayerData.js
+// scripts\module\PlayerData.js
 
 var players = [{
 	name: '奥巴马',
